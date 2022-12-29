@@ -1,0 +1,43 @@
+.ourCustomers{
+    background: linear-gradient(180deg, #67C3F3 9.05%, #5A98F2 76.74%);
+}
+.ourCustomers .row{
+    padding: 2rem 4rem;
+}
+.ourCustomers h2{
+    color: var(--global-color-white);
+}
+.ourCustomers .col-md-4{
+    padding: 0 3rem;
+}
+.bgItem3{
+    position: absolute;
+    right: 0;
+}
+.ourCustomers h2:after{
+    left: 45%;
+    border-bottom: 3px solid var(--global-color-white);
+    bottom: -10%;
+  }
+.ourCustomers .carousel-control-next-icon{
+    background-image: url("../../assets/images/rightArr.svg");
+}
+.ourCustomers .carousel-control-prev-icon{
+    background-image: url("../../assets/images/leftArr.svg");
+}
+.ourCustomers .carousel-indicators{
+    bottom: -2rem;
+}
+.ourCustomers .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .ourCustomers .row {
+        padding: 1rem 0;
+    }
+    .ourCustomers .col-md-4{
+        padding: 1rem 2rem;
+    }
+}

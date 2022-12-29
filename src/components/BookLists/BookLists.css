@@ -1,0 +1,116 @@
+.container-fluid.banner{
+    margin-top: 9rem !important;
+    background: url("../../assets/images/Floor2.png") no-repeat center bottom;
+    position: relative;
+}
+.sidebarBg{
+    background: url("../../assets/images/sidebar-bg.png") no-repeat;
+}
+.banner .row{
+    padding-bottom: 7rem;
+}
+.bookItems .col-md-2{
+    width: 18%;
+}
+.bannerImg1{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 5rem;
+}
+.bannerImg2{
+    position: absolute;
+    bottom: 1rem;
+    right: 5rem;
+}
+.bookItems h5,.activitiesLists h5{
+    font-weight: 600;
+}
+.bookItems hr,.activitiesLists hr{
+    color: var(--global-color-header);
+    opacity: 1;
+    border: 1px solid;
+    width: 100%;
+    margin: 1rem 0 0;
+}
+.bookItems .card{
+    border: none;
+    margin-bottom: 3rem;
+    align-items: center;
+    background: none;
+}
+.bookItems .card-body:hover{
+    background-color: var(--global-color-lightblue);
+    box-shadow: #0000003d 0px 3px 20px;
+}
+.bookItems .card-body{
+    box-shadow: #0000003d 0px 1px 5px;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    font-family: var(--global-font-family-mn);
+    cursor: pointer;
+}
+.bookItems .card-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0 0;
+}
+.bookItems .card-img-top{
+    width: 100%;
+}
+.bookItems .list-group-item,.activitiesLists .list-group-item{
+    border: none;
+    padding: 1rem 0;
+    background: none;
+}
+.pagination{
+    justify-content: center;
+    margin: 4rem 0 !important;
+}
+li.page-item {
+    margin: 0 10px;
+}
+.tab-content>.active{
+    display: flex !important;
+}
+.bookItems .nav-link{
+    color: #102E46 !important;
+    cursor: pointer;
+    font-weight: 500;
+    padding-left: 0px !important;
+    width: 100%;
+    margin-top: 5px;
+}
+.nav-pills .nav-item{
+    height: 50px;
+}
+.nav-pills .nav-link.active{
+    color: #1A6FB5 !important;
+    background: none !important;
+}
+.nav-pills .nav-link:hover{
+    border-bottom: 2px solid #1A6FB5;
+}
+.page-link{
+    width: 50px;
+    height: 50px;
+    border-radius: 6px !important;
+    text-align: center;
+    line-height: 2;
+}
+.page-item.active .page-link{
+    background-color: #5A98F2 !important;
+}
+a.page-link{
+    border-color: #BDBDBD;
+    color: #BDBDBD;
+}
+.bgItem6{
+    position: absolute;
+    left: 4px;
+    top: 130%;
+}
+.bgItem7{
+    position: absolute;
+    right: 0;
+    bottom: -10%;
+}

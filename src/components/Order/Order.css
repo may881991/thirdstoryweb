@@ -1,0 +1,84 @@
+.container-fluid.orderForm{
+    margin-top: 7rem !important;
+    background-color: #102E46;
+}
+.orderSummary h3{
+    color: #fff;
+    padding: 1rem 0;
+    font-family: var(--global-font-family);
+}
+.infoForm{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 3rem;
+    font-family: var(--global-font-family);
+}
+.infoForm h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #102E46;
+    padding: 0 0 2rem;
+}
+.infoForm .form-label{
+    font-size: 16px;
+    padding: 0px;
+}
+.infoForm .form-control{
+    /* box-shadow */
+    box-shadow: 2px 4px 6px rgba(79, 79, 79, 0.15);
+    border-radius: 2px;
+}
+.orderSummary p{
+    color: #fff;
+}
+.orderSummary .list-group-item{
+    border-bottom: 1px solid #fff;
+}
+.orderSummary .price{
+    text-align: right;
+}
+.form-label strong{
+    color: red;
+}
+.total{
+    padding-top: 1rem;
+    width: 100%;
+    margin: 0 auto !important;
+}
+.infoForm .col-md-8.form-control{
+    width: 66.66666667%;
+}
+.form-check-label{
+    font-size: 16px;
+    color: var(--global-color-main);
+    font-weight: 500;
+}
+.fileInput{
+    padding: 0px !important;
+}
+.row.col-md-8{
+    padding-right: 0px !important;
+}
+.col-md-8 .col-md-6{
+    padding: 0px !important;
+}
+.payment-footer{
+    background: var(--global-color-lightblue);
+}
+.payment-footer h4,.offcanvas-title{
+    color: var(--global-color-main);
+    font-weight: 500;
+    padding: 15px 0;
+}
+.payment-name{
+    font-weight: 500;
+    width: 200px;
+}
+.addTitle label{
+    font-size: 16px;
+} 
+.offcanvas-title{
+    font-weight: 700;
+    padding-left: 1rem;
+}

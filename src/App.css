@@ -1,0 +1,76 @@
+.container-fluid.paddingZero{
+  padding: 0 !important;
+}
+.home{
+  background: url("./assets/images/floor.png") no-repeat right 123%;
+  padding-top: 12rem;
+}
+.home p{
+  font-size: 20px;
+}
+.ourBooks{
+  background-color: var(--global-color-lightblue);
+}
+.aboutUs{
+  position: relative;
+}
+.bgItem1{
+  position: absolute;
+  width: 270px;
+  height: auto;
+  left: 0px;
+  top: -100px;
+}
+.bgItem2{
+  position: absolute;
+  right: 0;
+  top: 350px;
+}
+.aboutUs .row{
+  padding: 3rem 0;
+}
+.aboutUs h2{
+  color: var(--global-color-header);
+  padding-top: 10px;
+}
+.aboutUs p{
+  padding-right: 20px;
+  line-height: 30px;
+}
+.aboutUs h2:after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  bottom: 0;
+  width: 100px;
+  border-bottom: 3px solid var(--global-color-header);
+}
+.row .textBox{
+  padding-left: 4rem;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .bookLists h4{
+      margin-left: 4rem;
+  }
+  .carousel-item .col-md-2{
+      margin-right: 0px;
+      height: 160px;
+  }
+  .carousel-item .col-md-2:first-child {
+      margin-left: 2rem !important;
+  }
+  .carousel-item .col-md-2 label{
+      font-size: 0.75rem;
+  }
+  .bgItem1,.bgItem2{
+      width: 150px;
+      height: auto;
+  }
+  .row .col-md-12{
+      padding: 2rem;
+  }
+  .aboutUs .row{
+      padding: 0;
+  }
+}

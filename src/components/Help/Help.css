@@ -1,0 +1,49 @@
+.container-fluid.helpSection{
+    background: url("../../assets/images/helpBg.png") no-repeat left -140%;
+    padding: 2rem 0 !important;
+    position: relative;
+}
+.helpSection h2{
+    color: var(--global-color-header);
+    padding-top: 2rem;
+}
+.helpSection h2:after{
+    left: 45%;
+    border-bottom: 3px solid var(--global-color-header);
+    bottom: -5%;
+  }
+.helpSection .card{
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    border: none;
+    margin: 1rem;
+}
+.helpSection .card-body{
+    padding: 2rem;
+}
+.helpSection .card-title{
+    font-size: 24px;
+    color: var(--global-color-main);
+    font-weight: 700;
+}
+.helpSection .card-text{
+    padding: 1rem 0;
+    color: #7D7987;
+}
+.helpSection .card-link{
+    color: var(--global-color-header);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+.btn.downloadBtn{
+    height: 46px;
+    width: 230px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+.bgItem4{
+    position: absolute;
+    left: 0;
+    bottom: 21px;
+}

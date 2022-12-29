@@ -1,0 +1,25 @@
+.bannerImg3{
+    position: absolute;
+    bottom: 2rem;
+    right: 1rem;
+}
+.activitiesLists .card-title{
+    font-family: var(--global-font-family);
+    padding: 1em 0;
+}
+.activitiesLists .card{
+    border: none;
+    margin-bottom: 3rem;
+    align-items: center;
+    display: inline-block;
+}
+.activitiesLists .card-body{
+    box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.5);
+    margin-bottom: 1.5rem;
+    border-radius: 5px; 
+    width: 100%;
+}
+.activitiesLists .card-text{
+    font-size: 1rem;
+    margin-bottom: 0 !important;
+}

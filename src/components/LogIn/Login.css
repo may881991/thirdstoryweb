@@ -1,0 +1,55 @@
+#loginForm{
+    background: #fff;
+    border-radius: 8px;
+    font-family: var(--global-font-family);
+}
+#loginForm .form-control{
+    font-size: 	0.875rem;
+    height: 42px;
+    border-radius: 8px;
+}
+.btn.loginBtn{
+    height: 48px;
+    width: 120px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: 1px solid #CACACA;
+    box-shadow: 2px 4px 6px rgba(79, 79, 79, 0.15);
+    border-radius: 2px;
+}
+#loginForm h3{
+    font-weight: 800;
+    color: #4F4F4F;
+}
+#loginForm label{
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    font-size: 0.75em;
+}
+.signUpText{
+    font-size: 1rem;
+}
+.btn.loginBtn{
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.loginBg{
+    background: url("../../assets/images/SocialSignUp.png") no-repeat center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-size: 100%;
+    font-family: var(--global-font-family);
+}
+.loginBg button{
+    padding: 5px 5%;
+    color: #4D4962;
+    font-size: 16px;
+}
+.loginBg button img{
+    padding-right: 10px;
+}

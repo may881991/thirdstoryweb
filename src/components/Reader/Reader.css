@@ -1,0 +1,99 @@
+.Reader{
+    background-color: var(--global-color-lightblue);
+}
+.arrow{
+    text-align: center;
+}
+.backBtn svg{
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+}
+.arrow svg,.downloadBtn svg{
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+.readerView .col-md-10{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.react-pdf__Page{
+    display: flex;
+}
+.react-pdf__Page canvas{
+    width: 100% !important;
+    height: auto !important;
+}
+.react-pdf__Document{
+    margin: 2rem 1rem;
+}
+.backBtn{
+    width: 42px;
+    height: 42px;
+    border: 1px solid #102E46;
+    border-radius: 10px;
+    background-color: var(--global-color-lightblue);
+    margin-right: 0.8rem;
+}
+.btn-primary.dropdown-toggle{
+    background: none !important;
+    border: none !important;
+    color: var(--global-color-main) !important;
+    font-family: var(--global-font-family);
+}
+.btn-primary:focus{
+    box-shadow: none !important;
+}
+.dropdown-toggle::after{
+    margin-left: 0.5rem;
+}
+.dropdown{
+    margin-top: 0.5rem;
+}
+.dropdown-menu.show{
+    text-align: center;
+    padding: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: none;
+}
+.dropdown-item{
+    padding: 0.5rem 1rem !important;
+    width: 90% !important;
+    margin: 0.5rem;
+    font-family: var(--global-font-family);
+    font-weight: 700;
+}
+.dropdown-item:hover{
+    background-color: var(--global-color-lightblue) !important;
+}
+.pageNum{
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 13% 0;
+}
+.booktitle{
+    font-family: var(--global-font-family-mn);
+}
+.overlay{
+    position: absolute;
+    width: 82%;
+    z-index: 2;
+    background: #fffefeeb;
+    top: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay img{
+    width: 90%;
+    padding: 8rem 0;
+}
+.react-pdf__message--loading{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
